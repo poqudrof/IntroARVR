@@ -31,7 +31,7 @@ Créer une application d'interacition et rendu à échelle métrique et non virt
 
 Téléchargez et extrayez l'archive processing:
 
-* Processing [Téléchargement windows](http://download.processing.org/processing-3.5.3-windows64.zip) [mirroir1](http://vps601605.ovh.net/rails/processing-3.5.3-2-x86_64.pkg.tar.xz) [mirroir2](http://dist.rea.lity.tech/libs/processing-3.5.3-windows64.zip).
+* Processing [Téléchargement windows](http://download.processing.org/processing-3.5.3-windows64.zip), [mirroir1](http://vps601605.ovh.net/rails/processing-3.5.3-2-x86_64.pkg.tar.xz), [mirroir2](http://dist.rea.lity.tech/libs/processing-3.5.3-windows64.zip).
 * Gardez un onglet ouvert vers la [documentation](https://processing.org/reference/).
 
 Au premier lancement, un dossier `Processing` est crée dans `Mes Documents`. 
