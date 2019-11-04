@@ -84,5 +84,8 @@ Identifiez ces éléments dans le code:
 
 ## Pause mathématique: Passage à échelle physique
 
+Problème: On viens de mesurer `AB` en pixels, et on peut mesurer `CD` en millimètres. On veut maintenant connaître la distance réelle de l'objet en millièmetres ainsi que sa position en millimètres. 
 
+
+![Schema](https://github.com/poqudrof/IntroARVR/raw/master/image.png)
 
