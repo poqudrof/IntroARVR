@@ -4,6 +4,8 @@ import processing.net.*;
 int imageWidth = 160; // mm
 int imageHeight = 90; // mm 
 
+Client client;
+
 boolean useServer;
 boolean updated = false;
 PVector trackedPos = new PVector();
@@ -29,6 +31,8 @@ void connect(){
 
 void draw(){
     // TODO: Scale the whole rendering to draw in mm
+
+    //updatePos();
 }
 
     
@@ -40,9 +44,9 @@ boolean updatePos(){
     
     try{
 	if (client.available() > 0) {
-	    input = client.readString();
+	    String input = client.readString();
 	    input = input.substring(0, input.indexOf("\n")); // Only up to the newline
-	    data = float(split(input, ' ')); // Split values into an array
+	    float[] data = float(split(input, ' ')); // Split values into an array
 	    
 	    trackedPos.x = data[0];
 	    trackedPos.y = data[1];
