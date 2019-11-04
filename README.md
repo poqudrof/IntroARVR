@@ -97,7 +97,49 @@ Trouvez un moyen mathématique de calculer `OC`. Pour l'implémentation on parti
 
 Implémentez la solution dans votre programme. 
 
+
+### Envoi sur le réseau
+
+Le résultat du tracking donne une position 3D (X, Y, Z). Envoyez la sur le réseau. Voilà comment transformer votre programme actuel en serveur. 
+
+``` java 
+import processing.net.*; 
+// ... 
+Server server;
+void setup(){
+  //... 
+ try{
+   server = new Server(this, 12345); // Start a simple server on a port
+ }catch(Exception e){
+	println("Serveur issue... " + e);
+}
+
+void sendToServer(PVector pos){
+  try{  
+    String message = pos.x + " " + pos.y + " " + pos.z + "\n"; 
+    server.write(message);
+  }catch(Exception e){
+   println("Serveur issue " + e);
+  }
+}
+```
+
 # Partie 2 Affichage à l'échelle 
 
+## Rendu en millimètres
+
+1. Partez du sketch `RenderScale` pour implémenter un rendu à échelle millimètrique au lieu de pixels. 
+2. Créez un affichage à taille réel avec des élements (cercles ou rectangles).
+3. Ajustez les positions de l'affichage par rapport à la caméra pour que les positions données par la caméra soient cohérentes avec celles rendues (calibration). 
+3. Sélectionnez les éléments dessinée en (2) avec l'objet tracké dans la partie 1. 
+
+# Partie 3 Fenêtre de Réalité Virtuelle
+
+## Rendu 3D dans l'écran 
+
+Votre système de tracking peut fournir des positions pour un rendu type «fenêtre de réalité virtuelle». Ceci est inspiré de la video de Johnny Chung Lee: https://youtu.be/Jd3-eiid-Uw?t=125 . 
+
+* Pressez `h` pour utiliser votre tracking comme position de la tête. 
+* Ajustez les paramètres du sketch pour la taille de votre écran. 
 
 
