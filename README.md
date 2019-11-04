@@ -84,8 +84,20 @@ Identifiez ces éléments dans le code:
 
 ## Pause mathématique: Passage à échelle physique
 
+### Poser le problème
 Problème: On viens de mesurer `AB` en pixels, et on peut mesurer `CD` en millimètres. On veut maintenant connaître la distance réelle de l'objet en millièmetres ainsi que sa position en millimètres. 
 
-
 ![Schema](https://github.com/poqudrof/IntroARVR/raw/master/image.png)
+
+Pour simplifier, on considère que  `dx = OC = OD`. 
+
+Trouvez un moyen mathématique de calculer `OC`. Pour l'implémentation on partira sur une distance focale `float fx = 800;`. Proposez une méthode simple pour mesurer la vraie valeur de votre distance focale.
+
+### Implémenter la solution 
+
+Implémentez la solution dans votre programme. 
+
+# Partie 2 Affichage à l'échelle 
+
+
 
