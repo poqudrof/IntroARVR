@@ -18,7 +18,7 @@ Créer une application d'interacition et rendu à échelle métrique et non virt
 
 * Affichage à échelle en millimètre sur un écran PC. 
 * Rendu autour d'objets physiques. 
-* Sélection d'objets physiques avec le détecteur de la partie 1. https://github.com/poqudrof/IntroARVR/edit/master/README.md
+* Sélection d'objets physiques avec le détecteur de la partie 1.
 
 ### Partie 3: Fenêtre de réalité virtuelle (Bonus)
 
@@ -39,7 +39,12 @@ Vous devez installer les bibliothèques `Video` et `ControlP5` depuis le la barr
 
 > Select "Add Library..." from the "Import Library..." submenu within the Sketch menu.
 
+* Video: https://github.com/processing/processing-video/releases/download/2/video-2.zip
+* ControlP5: https://github.com/sojamo/controlp5/releases/download/v2.2.5/controlP5-2.2.5.zip
+
 * Relancez Processing, et testez la bibliothèque Vidéo. 
+
+
 
 > File -> Examples... puis   Libraries / Video / Capture / GettingStartedCapture 
 
