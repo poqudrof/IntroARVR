@@ -87,6 +87,8 @@ Identifiez ces éléments dans le code:
 1. Utilisez l'espace de couleur HSB au lieu de RGB pour trouver les couleurs ayant une couleur proche. 
 2. Améliorez la qualité de vos détections en appliquant des [filtres](https://processing.org/reference/filter_.html) à vos images. 
 
+https://gist.github.com/poqudrof/414ad6b7fa78dfcf353f659b2e956a70
+
 ## Pause mathématique: Passage à échelle physique
 
 ### Poser le problème
